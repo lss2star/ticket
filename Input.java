@@ -3,13 +3,13 @@ package LandTicket;
 import java.util.Scanner;
 
 public class Input {
-	Scanner sc = new Scanner(System.in);
+	static Scanner sc = new Scanner(System.in);
 	private static int ticketType;
 	private static int selectPersonType;
 	private static int amountEa;
 	private static int continueOrder;
 	
-	public void ticketType() {
+	public static void ticketType() {
 		ticketType = sc.nextInt();
 	}
 	public int getTicketType () {
